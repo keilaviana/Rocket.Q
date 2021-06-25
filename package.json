@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/keilaviana/Rocket.Q/issues"
   },
-  "homepage": "https://github.com/keilaviana/Rocket.Q#readme"
+  "homepage": "https://github.com/keilaviana/Rocket.Q#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
 }

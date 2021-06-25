@@ -17,7 +17,7 @@ header{
     
     /* top/contain -> pega do topo e se 
     encaixa na div ao qual a img pertence */
-    background: url('/assets/home-bg-img.svg') no-repeat top/contain;
+    background: url('/images/home-bg-img.svg') no-repeat top/contain;
     background-position-x: -10rem ;
 }
 

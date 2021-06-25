@@ -1,0 +1,20 @@
+{
+  "name": "nlw_6",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anônimas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keilaviana/Rocket.Q.git"
+  },
+  "keywords": [],
+  "author": "keila Viana ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keilaviana/Rocket.Q/issues"
+  },
+  "homepage": "https://github.com/keilaviana/Rocket.Q#readme"
+}

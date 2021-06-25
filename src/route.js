@@ -4,4 +4,6 @@ const express = require('express')
 const route = express.Router()
 
 // requisição e resposta da rota
-route.get('/', (req, res) => res.render("index") )
+route.get('/', (req, res) => res.render("index"))
+
+module.exports = route

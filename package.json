@@ -2,9 +2,9 @@
   "name": "nlw_6",
   "version": "1.0.0",
   "description": "Projeto desenvolvido para gerenciar perguntas anônimas",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "nodemon ."
   },
   "repository": {
     "type": "git",

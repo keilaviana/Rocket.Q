@@ -1,4 +1,3 @@
-import { query } from 'express'
 import Modal from './modal.js'
 
 const modal = Modal()

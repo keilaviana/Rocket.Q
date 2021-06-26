@@ -14,6 +14,8 @@ server.use(express.static("public"))
 // o path pega o caminho da pasta que está o projeto 
 server.set('views', path.join(__dirname, 'views'))
 
+server.use(express.urlencoded({extended:true}))
+
 server.use(route)
 
 //setando qual porta que a aplicação vai rodar

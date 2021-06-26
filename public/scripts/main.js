@@ -23,7 +23,8 @@ function handleClick(event, check = true){
     const text = check? "Marcar como lida" : "Excluir"
 
     modalTitle.innerHTML = `${text} esta pergunta`
-    modalDescription.innerHTML = `Tem certeza que deseja ${text.toLocaleLowerCase()} esta pergunta?`
+    modalDescription.innerHTML = `Tem certeza que deseja ${text.toLowerCase()} esta pergunta?`
+    modalButton.innerHTML = `Sim, ${text.toLowerCase()}`
 
     //abrir modal
     modal.open()

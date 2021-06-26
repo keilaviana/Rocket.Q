@@ -20,8 +20,10 @@ deleteButton.forEach(button => {
 })
 
 function handleClick(event, check = true){
-    modalTitle.innerHTML = check? "Marcar como lida esta pergunta" : "Excluir esta pergunta"
-    modalDescription.innerHTML = check? "Tem certeza que deseja marcar como lida esta pergunta?" : "Tem certeza que deseja excluir esta pergunta?"
+    const text = check? "Marcar como lida" : "Excluir"
+
+    modalTitle.innerHTML = `${text} esta pergunta`
+    modalDescription.innerHTML = `Tem certeza que deseja ${text.toLocaleLowerCase()} esta pergunta?`
 
     //abrir modal
     modal.open()
